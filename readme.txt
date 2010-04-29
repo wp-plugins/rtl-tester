@@ -3,7 +3,7 @@ Contributors: automattic, yoavf
 Tags: RTL, testing
 Requires at least: 2.8
 Tested up to: trunk
-Stable tag: 2.9
+Stable tag: 0.1
 Tested up to: 3.0
 
 Test your themes and plugins in RTL mode.
