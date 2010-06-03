@@ -2,7 +2,6 @@
 Contributors: automattic, yoavf
 Tags: RTL, testing
 Requires at least: 2.8
-Tested up to: trunk
 Stable tag: 0.2
 Tested up to: 3.0
 
