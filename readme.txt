@@ -2,7 +2,7 @@
 Contributors: automattic, yoavf
 Tags: RTL, testing
 Requires at least: 3.1
-Stable tag: 1
+Stable tag: 1.0
 Tested up to: 3.2
 
 Test your themes and plugins in RTL mode.
@@ -18,7 +18,7 @@ Upload, Activate
 == Changelog ==
 
 
-= 1 =
+= 1.0 =
 Activate RTL/LTR via the admin bar. Settings are per user, for admins only.
 
 = 0.2 =
