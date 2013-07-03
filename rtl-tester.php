@@ -79,8 +79,12 @@ class RTLTester {
 			if ( false === $direction )
 				$direction = isset( $wp_locale->text_direction ) ? $wp_locale->text_direction : 'ltr' ;
 		}
+
 		$wp_locale->text_direction = $direction;
-		$wp_styles->text_direction = $direction;
+		if ( ! is_a( $wp_styles, 'WP_Styles' ) ) {
+			$wp_styles = new WP_Styles();
+			$wp_styles->text_direction = $direction;
+		}
 	}
 
 }
