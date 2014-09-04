@@ -17,6 +17,11 @@ Upload, Activate
 
 == Changelog ==
 
+= 1.0.5 =
+- Make sure we set the direction the wp_styles object if it already exist.
+- Enable header translation (props GaryJones);
+
+
 = 1.0.4 =
 Bug fix
 
